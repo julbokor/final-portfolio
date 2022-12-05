@@ -1,0 +1,28 @@
+body{
+    background-color:rgb(255, 197, 226)
+}
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-size: medium;
+}
+
+.myBtn {
+    text-align: center;
+    margin: 30px;
+    background-color:rgb(255, 196, 138);
+    border-radius: 7px;
+    font-size:medium;
+    padding: 10px 15px;
+
+}
+.myBtn:hover{
+    cursor:grab;
+}
+
+.container {
+    text-align: center;
+}

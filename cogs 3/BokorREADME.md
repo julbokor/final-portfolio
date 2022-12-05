@@ -1,0 +1,1 @@
+I did the extra credit for putting the wedding planner lab into an HTML page, which I submitted to the server. 

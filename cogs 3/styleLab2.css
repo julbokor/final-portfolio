@@ -1,0 +1,45 @@
+th {
+    text-align: center;
+    background-color: rgb(130, 255, 255);
+    font-style: italic;
+    color: black;
+    font-size:larger;
+    border-style:double;
+    border-width: thick;
+    padding: 15px 10px;}
+.time {
+    background-color:rgb(130, 255, 255);
+    padding:5px 15px;
+    border-style: double;
+    border-width: thick;
+    font-style:oblique;}
+td {text-align: center;
+    font-style: normal;}
+h1,h2{text-align: center;}
+a{color:rgb(0, 0, 0);}
+a:link {
+    color: rgb(139, 3, 44);}
+    a:visited {
+        color: rgb(29, 31, 168);}
+    a:active {
+        color:rgb(35, 209, 160);}
+    a:hover {
+        color: rgb(35, 121, 107);
+        cursor: alias;}
+.math11 {
+    background-color: rgb(169, 245, 159);}
+.comm10 {
+    background-color: rgb(245, 104, 97);}
+.cogs3 {
+    background-color: rgb(214, 128, 242);}
+.athletics {
+    background-color: rgb(98, 203, 255);}
+
+.empty {
+    background-color: rgb(240, 227, 188); }
+.productive {
+    background-color: rgb(255, 162, 204);}
+caption {
+    font-size: xx-large;
+    font-style: normal;
+    font-variant: small-caps;}

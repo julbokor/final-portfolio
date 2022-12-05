@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Schedule for Juliette Bokor - cg3fa22ge - Fall, 2022</title>
+        <link rel="stylesheet" href="styleLab2.css">
+    </head>
+    <body>
+        <h1>COGS 3 Lab 2</h1>
+        <h2>Juliette Bokor, cg3fa22ge</h2>
+        <h3><u>Definitions</u></h3>
+        <dl>
+            <dt><b>How to define a table?</b></dt>
+                <dd>Using HTML, you can define a table using the tag &lt;table&gt;. The size of your table is controlled by the amount of rows and columns that you create using &lt;tr&gt; tags and &lt;td&gt; tags.</dd>
+            <dt><b>When to use &lt;tr&gt;</b></dt>
+                <dd>The &lt;tr&gt; tag is used to create table rows in a table. The number of times you use this tags defines the amount of rows in your table.</dd>
+            <dt><b>When to use &lt;th&gt;</b></dt>
+                <dd>The table header tag, &lt;th&gt; is used instead of the table data tag &lt;td&gt; when that row is a header. It bolds the contents of each cell to indicate that it is a header.</dd>
+            <dt><b>When to use &lt;td&gt;</b></dt>
+                <dd>The &lt;td&gt; tag is used to define a standard data cell within a HTML table.</dd>
+            <dt><b>When to use &lt;thead&gt;</b></dt>
+                <dd>The &lt;thead&gt; tag is used in an HTML table to specify header content. This tag automatically bolds its content to indicate that it is a header.</dd>
+             <dt><b>When to use &lt;tfoot&gt;</b></dt>
+                <dd>The &lt;tfoot&gt; tag is used in an HTML table to specify footer content.</dd>
+            <dt><b>When to use &lt;caption&gt;</b></dt>
+                <dd>The &lt;caption&gt; tag is used with an HTML table as a title, to describe what the table is displaying. It is used directly following the &lt;table&gt; tag.</dd>
+            <dt><b>The difference between colspan and rowspan</b></dt>
+                <dd>Colspan spans the columns of a table, and merges the cells in a row together. Rowspan spans the rows of a table and merges column cells together.</dd>
+            <dt><b>The difference between cell spacing and padding</b></dt>
+                <dd>Cell spacing defines the amount of pixels between each cell in an HTML table. Cell padding defines how much space is between the cell content and the cell border in an HTML table.</dd>
+            <dt><b>How to define table borders using CSS</b></dt>
+                <dd>To define table borders using CSS you must first decide if you want to apply the styling to the table, the table header, and/or the table data. You can then style your table using properties such as "border-style", which allows you to make a border dotted, dashed, etc.</dd>
+            <dt><b>How to control border widths using CSS </b></dt>
+                <dd>You can apply the property "border-width" to a table, table header and/or table data to control the width of the borders.</dd>
+        </dl>
+        <table border="2">
+            <caption>My Weekly Schedule</caption>
+            <tr>
+                <th> </th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+                <th>Saturday</th>
+                <th>Sunday</th>
+            </tr>
+            <tr>
+                <td class="time">7:00-8:00AM</td>
+                <td class="athletics"><a href="https://ucsdtritons.com/facilities/alex-g-spanos-athletic-performance-center/10" target="blank">Weights</a>
+                    <img src="images/Spanos1.jpeg" width="200" height="150"  alt="Spanos1">
+                </td>
+                <td class="empty"> </td>
+                <td class="athletics"><a href="https://ucsdtritons.com/facilities/alex-g-spanos-athletic-performance-center/10" target="blank">Weights</a><img src="images/Spanos2.jpeg" width="200" height="150"  alt="Spanos2"></td>
+                <td class="empty"> </td>
+                <td class="empty"> </td>
+                <td class="empty"> </td>
+                <td class="empty" rowspan="3"> </td>
+            </tr>
+            <tr>
+                <td class="time">8:00-9:00AM</td>
+                <td class="empty"> </td>
+                <td class="empty"> </td>
+                <td class="empty"> </td>
+                <td class="empty"> </td>
+                <td class="empty"> </td>
+                <td class="empty"> </td>
+            </tr>
+            <tr>
+                <td class="time">9:00-10:00AM</td>
+                <td class="math11"><a href="https://catalog.ucsd.edu/courses/MATH.html" target="blank">MATH 11 Lecture</a></td>
+                <td class="empty"> </td>
+                <td class="math11"><a href="https://catalog.ucsd.edu/courses/MATH.html" target="blank">MATH 11 Lecture</a></td>
+                <td class="empty"> </td>
+                <td class="math11"><a href="https://catalog.ucsd.edu/courses/MATH.html" target="blank">MATH 11 Lecture</a></td>
+                <td class="empty"> </td>
+            </tr>
+            <tr>
+                <td class="time">10:00-11:00AM</td>
+                <td class="empty"> </td>
+                <td class="empty"> </td>
+                <td class="empty"> </td>
+                <td class="empty"> </td>
+                <td class="empty"> </td>
+                <td class="empty"> </td>
+                <td rowspan="2" class="productive"> <img src="images/laundry.jpeg" width="270" height="300" alt="laundry">Laundry and Clean Apartment</td>
+            </tr>
+            <tr>
+                <td class="time">11:00AM-12:00PM</td>
+                <td class="comm10"><a href="https://catalog.ucsd.edu/courses/COMM.html" target="blank">COMM 10 Lecture</a></td>
+                <td class="empty"> </td>
+                <td class="comm10"><a href="https://catalog.ucsd.edu/courses/COMM.html" target="blank">COMM 10 Lecture</a></td>
+                <td class="empty"> </td>
+                <td class="comm10"><a href="https://catalog.ucsd.edu/courses/COMM.html" target="blank">COMM 10 Lecture</a></td>
+                <td class="empty"> </td>
+            </tr>
+            <tr>
+                <td class="time">12:00-1:00PM</td>
+                <td class="empty"> </td>
+                <td class="comm10"><a href="https://catalog.ucsd.edu/courses/COMM.html" target="blank">COMM 10 Discussion</a></td>
+                <td class="empty"> </td>
+                <td class="empty"> </td>
+                <td class="empty"> </td>
+                <td class="empty"> </td>
+                <td rowspan="3" class="productive"><img src="images/homework.jpeg" width="250" height="150" alt="homework">Catch Up On Homework</td>
+            </tr>
+            <tr>
+                <td class="time">1:00-2:00PM</td>
+                <td class="cogs3"><a href="https://catalog.ucsd.edu/courses/COGS.html" target="blank"> COGS 3 Lab</a></td>
+                <td class="empty"> </td>
+                <td class="empty"> </td>
+                <td class="empty"> </td>
+                <td class="empty"> </td>
+                <td class="empty"> </td>
+            </tr>
+            <tr>
+                <td class="time">2:00-3:00PM</td>
+                <td class="empty"> </td>
+                <td class="empty"> </td>
+                <td class="empty"> </td>
+                <td class="empty"> </td>
+                <td class="empty"> </td>
+                <td class="empty"> </td>
+            </tr>
+            <tr>
+                <td class="time">3:00-4:00PM</td>
+                <td rowspan="3" class="athletics"> <a href="https://ucsdtritons.com/sports/womens-volleyball" target="blank"> Volleyball Practice</a><img src="images/wvb1.png" width="250" height="150" alt="wvb1"></td>
+
+                <td rowspan="3" class="athletics"><a href="https://ucsdtritons.com/sports/womens-volleyball" target="blank"> Volleyball Practice</a><img src="images/wvb2.png" width="250" height="150" alt="wvb2"></td>
+
+                <td rowspan="3" class="athletics"><a href="https://ucsdtritons.com/sports/womens-volleyball" target="blank">Volleyball Practice</a><img src="images/wvb3.png" width="250" height="150" alt="wvb3"></td>
+
+                <td rowspan=3 class="athletics"><a href="https://ucsdtritons.com/sports/womens-volleyball" target="blank">Volleyball Practice</a><img src="images/wvb4.png" width="250" height="150" alt="wvb4"></td>
+
+                <td rowspan="6" class="athletics"><a href="https://ucsdtritons.com/sports/womens-volleyball/schedule?path=wvball" target="blank">GAME DAY!</a><img src="images/Gameday1.png" width="270" height="175" alt="Gameday1"></td>
+
+                <td rowspan="6" class="athletics"><a href="https://ucsdtritons.com/sports/womens-volleyball/schedule?path=wvball" target="blank">GAME DAY!</a><img src="images/gameday2.png" width="270" height="175" alt="gameday2"></td>
+
+                <td rowspan="7" class="empty"> </td>
+            </tr>
+            <tr>
+                <td class="time">4:00-5:00PM</td>
+            </tr>
+            <tr>
+                <td class="time">5:00-6:00PM</td>
+            </tr>
+            <tr>
+                <td class="time">6:00-7:00PM</td>
+                <td class="empty"> </td>
+                <td rowspan="2" class="cogs3"><a href="https://catalog.ucsd.edu/courses/COGS.html" target="blank"> COGS 3 Lecture</a></td>
+                <td class="empty"> </td>
+                <td rowspan="2" class="cogs3"><a href="https://catalog.ucsd.edu/courses/COGS.html" target="blank"> COGS 3 Lecture</a></td>
+            </tr>
+            <tr>
+                <td class="time">7:00-8:00PM</td>
+                <td class="math11"><a href="https://catalog.ucsd.edu/courses/MATH.html" target="blank">MATH 11 Discussion</a></td>
+                <td class="empty"> </td>
+            </tr>
+            <tr>
+                <td class="time">8:00-9:00PM</td>
+                <td rowspan="2" class="productive">Homework</td>
+                <td rowspan="2" class="productive">Homework</td>
+                <td rowspan="2" class="productive">Homework</td>
+                <td rowspan="2" class="productive">Homework</td>
+
+            </tr>
+            <tr>
+                <td class="time">9:00-10:00PM</td>
+                <td class="empty"> </td>
+                <td class="empty"> </td>
+            </tr>
+            
+        </table>
+    </body>
+</html>
